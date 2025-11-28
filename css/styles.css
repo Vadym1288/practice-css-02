@@ -1,16 +1,52 @@
 body {
   font-family: 'Roboto', sans-serif;
-  color: 2e2F42;
-  background-color: FFFFFF;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  background-color: #ffffff;
 }
-ul {
+.list {
   list-style-type: none;
 }
-a {
+.link {
   font-style: normal;
   text-decoration: none;
 }
-.logo_header {
+button {
+  cursor: pointer;
+}
+/*==============HEADER==============*/
+.logo-header {
   font-family: 'Raleway', sans-serif;
-  letter-spacing: 3px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #4d5ae5;
+}
+.logo-span {
+  color: #2e2f42;
+}
+.link-nav {
+  color: #2e2f42;
+}
+.link-add {
+  font-weight: 400;
+  color: #2e2f42;
+}
+/*=============section-heading==============*/
+.section-heading {
+  background-color: #2e2f42;
+}
+.page-heading {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  color: #ffffff;
+}
+.button-heading {
+  letter-spacing: 0.04em;
+  background-color: #4d5ae5;
+  color: #ffffff;
 }
